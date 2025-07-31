@@ -1,0 +1,5 @@
+services:
+  moduletheme_finder.modulethemefinder:
+    class: '\Drupal\moduletheme_finder\Commands\ModuleThemeFinder'
+    tags:
+      - { name: 'drush.command' }
