@@ -7,6 +7,18 @@ Sometimes they are in unexpected places!
 
 ## Usage
 
+### Install/Uninstall
+This module is very light and is easy to add/remove.
+
+```shell
+# Install
+drush pm-enable moduletheme_finder
+
+# Uninstall
+drush pm-uninstall moduletheme_finder
+```
+
+
 ### Find a module.
 Simply run the following drush command to find a module:
 
